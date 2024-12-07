@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to top, #0264e5, #ffffff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.facebook-logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  border: 4px solid #0264e5;
+}
+
+.name {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.btn-primary {
+  display: block;
+  background-color: #0264e5;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.btn-primary:hover {
+  background-color: #0252c4;
+}
+
+.secondary-link {
+  display: block;
+  margin: 15px auto;
+  color: #555555;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.secondary-link:hover {
+  text-decoration: none;
+  color: #878787;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.create-account {
+  display: block;
+  border-color: #0264e5;
+  border-style: solid;
+  border-width: .04rem;
+  color: #0264e5;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.create-account:hover {
+  border-color: #0c72f7;
+  color: #0c72f7;
+}
+
+.meta-logo img {
+  width: 60px;
+}

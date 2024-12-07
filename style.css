@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ebee; /* Light gray for a similar background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.facebook-logo {
+    width: 50px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    width: 94%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    background-color: #0264e5;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0252c4;
+}
+
+.secondary-link {
+    text-align: center;
+    margin: 10px 0;
+    color: rgba(0, 0, 0, 0.776);
+    text-decoration: none;
+}
+
+.secondary-link:hover {
+    text-decoration: none;
+}
+
+.create-account {
+    display: block;
+    text-align: center;
+    border-color: #0264e5;
+    border-style: solid;
+    border-width: .04rem;
+    border-radius: 30px;
+    color: #0264e5;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.create-account:hover {
+    border-color: #0c72f7;
+  color: #0c72f7;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.meta-logo {
+    width: 50px;
+}
